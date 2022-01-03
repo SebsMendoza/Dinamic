@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="backgroundPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="555.0" style="-fx-background-color: #38b0de;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.mendoza.dinamic.DinamicController">
+   <children>
+      <HBox layoutX="-75.0" prefHeight="472.0" prefWidth="75.0">
+         <children>
+            <VBox fx:id="menuBar" prefHeight="171.0" prefWidth="75.0" style="-fx-background-color: gray;">
+               <children>
+                  <Button fx:id="panelOneButton" mnemonicParsing="false" onAction="#panelOne" text="Ver panel1" />
+                  <Button fx:id="panelTwoButton" mnemonicParsing="false" onAction="#panelTwo" text="Ver panel2" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="menuButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#desplazarMenu" text="Menu" />
+   </children>
+</AnchorPane>
