@@ -1,0 +1,33 @@
+.backgroundPanel {
+    -fx-background-color: #ffffff;
+}
+
+.menuBar {
+    -fx-background-color: #ffffff;
+    -fx-effect: Dropshadow(gaussian, #555555, 10, 0.5, 0.0, 0.0);
+}
+
+.cabecera {
+    -fx-label-padding: 25 20 5 10;
+    -fx-font-weight: bold;
+}
+
+.menuButton {
+    -fx-background-color: #ffffff;
+}
+
+.panelOneButton,.panelTwoButton,.panelThreeButton, .ajustes, .salir{
+    -fx-background-color: #ffffff;
+    -fx-alignment: CENTER-LEFT;
+    -fx-padding: 5 10 5 10;
+    -fx-text-fill: #5d98ea;
+}
+.panelOneButton:hover, .panelTwoButton:hover, .panelThreeButton:hover, .panelThreeButton:hover, .ajustes:hover, .salir:hover{
+    -fx-text-fill: #ee0f0f;
+    -fx-background-color: #ffffff;
+}
+
+
+.separadorA, .separadoB,.separadoC{
+    -fx-padding: 0 10 0 10;
+}
