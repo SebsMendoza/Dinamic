@@ -12,38 +12,40 @@
 <AnchorPane fx:id="backgroundPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="300.0" styleClass="backgroundPanel" stylesheets="@../../../css/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.mendoza.dinamic.DinamicController">
    <children>
       <HBox layoutX="-75.0" prefHeight="472.0" prefWidth="75.0" />
-      <Button fx:id="cargarButton1" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#cargarDatosOne" prefHeight="84.0" prefWidth="90.0" text="Cargar Datos" />
+      <Button fx:id="spanish" layoutX="79.0" layoutY="322.0" mnemonicParsing="false" onAction="#toSpanish" text="%button.spanish" />
+      <Button fx:id="english" layoutX="169.0" layoutY="322.0" mnemonicParsing="false" onAction="#toEnglish" text="%button.english" />
+      <Button fx:id="cargarButton1" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#cargarDatosOne" prefHeight="84.0" prefWidth="90.0" text="%button.cargarButton1" />
       <Button fx:id="menuButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#desplazarMenu" styleClass="menuButton" stylesheets="@../../../css/styles.css">
          <graphic>
             <FontIcon iconLiteral="fas-bars" iconSize="20" />
          </graphic></Button>
       <VBox fx:id="menuBar" layoutX="-167.0" prefHeight="472.0" prefWidth="130.0" styleClass="menuBar" stylesheets="@../../../css/styles.css">
          <children>
-            <Label fx:id="cabecera" styleClass="cabecera" stylesheets="@../../../css/styles.css" text="Contactos FX" />
+            <Label fx:id="cabecera" styleClass="cabecera" stylesheets="@../../../css/styles.css" text="%label.cabecera" />
             <Separator fx:id="separadorA" prefHeight="17.0" prefWidth="123.0" styleClass="separadorA" stylesheets="@../../../css/styles.css" />
-            <Button fx:id="panelOneButton" mnemonicParsing="false" onAction="#panelOne" prefHeight="25.0" prefWidth="124.0" styleClass="panelOneButton" stylesheets="@../../../css/styles.css" text="Opción 1">
+            <Button fx:id="panelOneButton" mnemonicParsing="false" onAction="#panelOne" prefHeight="25.0" prefWidth="124.0" styleClass="panelOneButton" stylesheets="@../../../css/styles.css" text="%button.panelOneButton">
                <graphic>
                   <FontIcon iconLiteral="fas-portrait" iconSize="15" selectionEnd="1" />
                </graphic>
             </Button>
-            <Button fx:id="panelTwoButton" mnemonicParsing="false" onAction="#panelTwo" prefHeight="25.0" prefWidth="126.0" styleClass="panelTwoButton" stylesheets="@../../../css/styles.css" text="Opción 2">
+            <Button fx:id="panelTwoButton" mnemonicParsing="false" onAction="#panelTwo" prefHeight="25.0" prefWidth="126.0" styleClass="panelTwoButton" stylesheets="@../../../css/styles.css" text="%button.panelTwoButton">
                <graphic>
                   <FontIcon iconLiteral="fas-portrait" iconSize="15" selectionEnd="1" />
                </graphic>
             </Button>
-            <Button fx:id="panelThreeButton" mnemonicParsing="false" onAction="#panelThree" styleClass="panelThreeButton" stylesheets="@../../../css/styles.css" text="Opción 3">
+            <Button fx:id="panelThreeButton" mnemonicParsing="false" onAction="#panelThree" styleClass="panelThreeButton" stylesheets="@../../../css/styles.css" text="%button.panelThreeButton">
                <graphic>
                   <FontIcon iconLiteral="fas-portrait" iconSize="15" selectionEnd="1" />
                </graphic>
             </Button>
             <Separator fx:id="separadorB" prefWidth="200.0" styleClass="separadoB" stylesheets="@../../../css/styles.css" />
-            <Button fx:id="ajustes" mnemonicParsing="false" styleClass="ajustes" stylesheets="@../../../css/styles.css" text="Preferencias">
+            <Button fx:id="ajustes" mnemonicParsing="false" onAction="#settings" styleClass="ajustes" stylesheets="@../../../css/styles.css" text="%button.ajutes">
                <graphic>
                   <FontIcon iconLiteral="fas-cog" selectionEnd="1" selectionStart="1" />
                </graphic>
             </Button>
             <Separator fx:id="separadoC" prefWidth="200.0" styleClass="separadoC" stylesheets="@../../../css/styles.css" />
-            <Button fx:id="salir" mnemonicParsing="false" onAction="#salirButton" styleClass="salir" stylesheets="@../../../css/styles.css" text="Salir">
+            <Button fx:id="salir" mnemonicParsing="false" onAction="#salirButton" styleClass="salir" stylesheets="@../../../css/styles.css" text="%button.salir">
                <graphic>
                   <FontIcon iconLiteral="fas-power-off" selectionEnd="1" />
                </graphic>

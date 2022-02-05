@@ -4,6 +4,7 @@ module es.mendoza.dinamic {
     requires org.kordamp.ikonli.fontawesome5;
     requires org.kordamp.ikonli.core;
     requires org.kordamp.ikonli.javafx;
+    requires lombok;
 
 
     opens es.mendoza.dinamic to javafx.fxml;
