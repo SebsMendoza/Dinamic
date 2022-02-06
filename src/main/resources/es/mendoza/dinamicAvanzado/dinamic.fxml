@@ -33,7 +33,7 @@
                   <FontIcon iconLiteral="fas-portrait" iconSize="15" selectionEnd="1" />
                </graphic>
             </Button>
-            <Button fx:id="panelThreeButton" mnemonicParsing="false" onAction="#panelThree" styleClass="panelThreeButton" stylesheets="@../../../css/styles.css" text="%button.panelThreeButton">
+            <Button fx:id="panelThreeButton" mnemonicParsing="false" styleClass="panelThreeButton" stylesheets="@../../../css/styles.css" text="%button.panelThreeButton">
                <graphic>
                   <FontIcon iconLiteral="fas-portrait" iconSize="15" selectionEnd="1" />
                </graphic>

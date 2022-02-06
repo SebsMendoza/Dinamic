@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 
 
-<AnchorPane prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.mendoza.dinamic.DinamicThreeController">
+<AnchorPane prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.mendoza.dinamicAvanzado.DinamicThreeController">
    <children>
       <Pane fx:id="vistaTwo" prefHeight="460.0" prefWidth="310.0">
          <children>
