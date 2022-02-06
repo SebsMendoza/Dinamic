@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dinamic" />
+        <module name="DinamicAvanzado" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Dinamic" target="17" />
+      <module name="DinamicAvanzado" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

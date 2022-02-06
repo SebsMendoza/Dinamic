@@ -12,7 +12,7 @@
          <children>
             <ImageView fx:id="foto" fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="D:\2DAM\DI\Proyectos\Dinamic\src\main\resources\image\perfil1.jpg" />
+                  <Image url="@../../../image/perfil1.jpg" />
                </image>
             </ImageView>
             <Label fx:id="nombre" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="219.0" prefHeight="42.0" prefWidth="102.0" text="Tipo" />
