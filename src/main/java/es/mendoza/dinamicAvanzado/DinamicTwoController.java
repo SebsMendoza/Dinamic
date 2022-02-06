@@ -1,4 +1,4 @@
-package es.mendoza.dinamic;
+package es.mendoza.dinamicAvanzado;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

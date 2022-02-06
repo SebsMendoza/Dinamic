@@ -7,6 +7,6 @@ module es.mendoza.dinamic {
     requires lombok;
 
 
-    opens es.mendoza.dinamic to javafx.fxml;
-    exports es.mendoza.dinamic;
+    opens es.mendoza.dinamicAvanzado to javafx.fxml;
+    exports es.mendoza.dinamicAvanzado;
 }

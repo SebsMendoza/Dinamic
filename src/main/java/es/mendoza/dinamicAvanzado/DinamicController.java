@@ -1,4 +1,4 @@
-package es.mendoza.dinamic;
+package es.mendoza.dinamicAvanzado;
 
 import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
@@ -10,7 +10,6 @@ import javafx.scene.layout.VBox;
 import javafx.util.Duration;
 
 import java.net.URL;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class DinamicController implements Initializable {
